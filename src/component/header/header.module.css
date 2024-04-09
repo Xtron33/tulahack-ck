@@ -1,0 +1,11 @@
+.box{
+    background: #D7263D;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h1{
+    color: white;
+}

@@ -1,0 +1,20 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card{
+    transition: all .3s cubic-bezier(.64,.19,0,.96);
+}
+
+.card:hover{
+    z-index: 100;
+    scale: 1.1;
+}
