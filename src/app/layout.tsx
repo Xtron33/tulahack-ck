@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import {Combobox, createTheme, MantineProvider, Title} from "@mantine/core";
 import Header from "@/component/header/header"
+import '@mantine/core/styles.css';
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -2,7 +2,6 @@ import NextImage from "next/image"
 import {Image} from "@mantine/core"
 import banner from "@/images/banner.jpg"
 import style from "./home.module.css"
-import '@mantine/core/styles.css';
 import AllBooks from "@/component/AllBooks/allBooks";
 
 import {IBook} from "@/consts/interface/IBook";

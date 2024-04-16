@@ -9,6 +9,12 @@ export const fetchBook = async () => {
     return res.json()
 }
 
+export const fetchBookPagination = async (page: number, limit: number = 6) => {
+    const res = await fetch(`https://6614f7e62fc47b4cf27d9b07.mockapi.io/api/libray/books?page=${page}&limit=${limit}`, {next: {revalidate: 60}})
+
+    return res.json()
+}
+
 export const fetchBookById = async (id: string) => {
     const res = await fetch(`https://6614f7e62fc47b4cf27d9b07.mockapi.io/api/libray/books/${id}`, {
         next: {revalidate: 60}

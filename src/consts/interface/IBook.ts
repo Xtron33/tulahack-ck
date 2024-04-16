@@ -3,5 +3,6 @@ export interface IBook{
     title: string,
     date: Date,
     image: string,
-    desc: string
+    desc: string,
+    author: string
 }
